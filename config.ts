@@ -186,7 +186,7 @@ export const config: Config = {
           },
           {
             name: 'Reddit',
-            url: 'https://reddit.com'',
+            url: 'https://reddit.com',
           },
           {
             name: 'Coolors',
