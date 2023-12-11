@@ -11,7 +11,7 @@ import { Config } from './src/types/config';
 // Use an editor with Typescript support to get autocomplete and validity checking!
 export const config: Config = {
   // General
-  name: 'John',
+  name: 'wiillou',
   openInNewTab: true,
   title: 'Bento',
 
@@ -28,7 +28,7 @@ export const config: Config = {
   },
 
   // Theme
-  theme: 'bento',
+  theme: 'catppuccin-mocha',
 
   // Place a background image in ./src/assets/images/ and provide the file name.
   // Alternatively, provide a URL to an image. If the page is served over https, you may have issues loading images from insecure origins.
@@ -50,7 +50,7 @@ export const config: Config = {
 
   // Search Bar
   searchBar: true,
-  searchEngine: 'google', // google, ddg
+  searchEngine: 'searx', // google, searx
   barPlaceholder: '', // if blank, use search engine name. Set to ' ' for no placeholder.
   autoFocusBar: true,
 
@@ -61,17 +61,17 @@ export const config: Config = {
   greetingNight: 'Sweet dreams,',
 
   // Layout
-  layout: 'bento', // 'bento', 'lists', 'buttons'
+  layout: 'lists', // 'bento', 'lists', 'buttons'
 
   // Weather
   weatherKey: import.meta.env.VITE_API_KEY, // Set your OpenWeatherMap key in .env - Move the included .env.example to .env
-  weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
+  weatherIcons: 'Nord', // 'Onedark', 'Nord', 'Dark', 'White'
   weatherUnit: 'C', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // Request location from the browser. If false, or location is denied, use the coordinates below.
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  defaultLatitude: '53.500',
+  defaultLongitude: '-2.200',
 
   // Automatic theme switching:
   // "system" - Switches based on OS color preference
@@ -174,44 +174,44 @@ export const config: Config = {
     // If you're using the 'bento' layout, this is the only group that will be used.
     [
       {
-        icon: 'music', // Icon for the list to use. The same as the buttons.
+        icon: 'image', // Icon for the list to use. The same as the buttons.
         links: [
           {
-            name: 'Inspirational', // Display text for the link
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ', // URL to the page
+            name: 'Youtube',
+            url: 'https://youtube.com',
           },
           {
-            name: 'Classic',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            name: 'Odysee',
+            url: 'https://odysee.com/',
           },
           {
-            name: 'Oldies',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            name: 'Reddit',
+            url: 'https://reddit.com'',
           },
           {
-            name: 'Rock',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            name: 'Coolors',
+            url: 'https://www.coolors.co/000000',
           },
         ],
       },
       {
-        icon: 'coffee',
+        icon: 'snowflake',
         links: [
           {
-            name: 'Linkedin',
-            url: 'https://www.linkedin.com',
+            name: 'Nix Search',
+            url: 'https://www.search.nixos.org',
           },
           {
-            name: 'Dribbble',
-            url: 'https://www.dribbble.com',
+            name: 'Nixlang Wiki',
+            url: 'https://www.nixlang.wiki',
           },
           {
-            name: 'Trello',
-            url: 'https://www.trello.com',
+            name: 'MyNixOS',
+            url: 'https://www.mynixos.com',
           },
           {
-            name: 'Slack',
-            url: 'https://www.slack.com',
+            name: 'Nixpkgs Github',
+            url: 'https://www.github.com/NixOS/nixpkgs',
           },
         ],
       },
@@ -220,44 +220,44 @@ export const config: Config = {
     // You muse use the 'lists' layout to use this group.
     [
       {
-        icon: 'house-user',
+        icon: 'code-2',
         links: [
           {
-            name: 'Spotify',
-            url: 'https://www.spotify.com',
+            name: 'GitHub',
+            url: 'https://github.com/wiillou',
           },
           {
-            name: 'Reddit',
-            url: 'https://www.reddit.com',
+            name: 'Phind',
+            url: 'https://phind.com',
           },
           {
-            name: 'Hashnode',
-            url: 'https://www.hashnode.com',
+            name: 'LazyVim',
+            url: 'https://lazyvim.org',
           },
           {
-            name: 'Pocket',
-            url: 'https://www.pocket.com',
+            name: 'Catppuccin',
+            url: 'https://catppuccin.github.io'
           },
         ],
       },
       {
-        icon: 'fab-github',
+        icon: 'folder-open-dot',
         links: [
           {
-            name: 'Front',
-            url: 'https://www.reddit.com/r/Frontend/',
+            name: 'Proton Mail',
+            url: 'https://proton.me',
           },
           {
-            name: 'Rust',
-            url: 'https://www.reddit.com/r/rust/',
+            name: 'Empty',
+            url: 'https://www.wiillou.github.io/bento',
           },
           {
-            name: 'Go',
-            url: 'https://www.reddit.com/r/golang/',
+            name: 'Empty',
+            url: 'https://www.wiillou.github.io/bento',
           },
           {
-            name: 'Repos',
-            url: 'https://github.com/migueravila',
+            name: 'Empty',
+            url: 'https://www.wiillou.github.io/bento',
           },
         ],
       },

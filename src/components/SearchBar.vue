@@ -20,6 +20,10 @@ const engines = {
     url: 'https://duckduckgo.com/?q=',
     display: 'DuckDuckGo',
   },
+  searx: {
+    url = 'https://sx.catgirl.cloud/search?q=',
+    display = 'SearxNG',
+  }
 };
 
 const placeholder = () => {
