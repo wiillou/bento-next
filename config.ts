@@ -220,7 +220,7 @@ export const config: Config = {
     // You muse use the 'lists' layout to use this group.
     [
       {
-        icon: 'code-2',
+        icon: 'code',
         links: [
           {
             name: 'GitHub',
@@ -241,7 +241,7 @@ export const config: Config = {
         ],
       },
       {
-        icon: 'folder-open-dot',
+        icon: 'folder',
         links: [
           {
             name: 'Proton Mail',
