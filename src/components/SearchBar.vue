@@ -21,8 +21,8 @@ const engines = {
     display: 'DuckDuckGo',
   },
   searx: {
-    url = 'https://sx.catgirl.cloud/search?q=',
-    display = 'SearxNG',
+    url: 'https://sx.catgirl.cloud/search?q=',
+    display: 'SearxNG',
   }
 };
 
