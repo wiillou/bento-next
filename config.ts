@@ -189,8 +189,8 @@ export const config: Config = {
             url: 'https://reddit.com',
           },
           {
-            name: 'Coolors',
-            url: 'https://www.coolors.co/000000',
+            name: 'Mastodon',
+            url: 'https://tech.lgbt/home',
           },
         ],
       },
