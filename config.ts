@@ -248,15 +248,15 @@ export const config: Config = {
             url: 'https://proton.me',
           },
           {
-            name: 'Empty',
+            name: 'Matrix',
+            url: 'https://app.element.io',
+          },
+          {
+            name: 'None',
             url: 'https://www.wiillou.github.io/bento',
           },
           {
-            name: 'Empty',
-            url: 'https://www.wiillou.github.io/bento',
-          },
-          {
-            name: 'Empty',
+            name: 'None',
             url: 'https://www.wiillou.github.io/bento',
           },
         ],
