@@ -190,7 +190,7 @@ export const config: Config = {
           },
           {
             name: 'Mastodon',
-            url: 'https://blahaj.zone/home',
+            url: 'https://blahaj.zone',
           },
         ],
       },
