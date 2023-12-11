@@ -181,15 +181,15 @@ export const config: Config = {
             url: 'https://youtube.com',
           },
           {
-            name: 'Odysee',
-            url: 'https://odysee.com/',
-          },
-          {
             name: 'Reddit',
             url: 'https://reddit.com',
           },
           {
-            name: 'Mastodon',
+            name: 'Lemmy Blahaj',
+            url: 'https://lemmy.blahaj.zone',
+          },
+          {
+            name: 'Mastodon Blahaj',
             url: 'https://blahaj.zone',
           },
         ],
