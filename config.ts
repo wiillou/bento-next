@@ -190,7 +190,7 @@ export const config: Config = {
           },
           {
             name: 'Mastodon',
-            url: 'https://tech.lgbt/home',
+            url: 'https://blahaj.zone/home',
           },
         ],
       },
