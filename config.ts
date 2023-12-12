@@ -185,11 +185,11 @@ export const config: Config = {
             url: 'https://reddit.com',
           },
           {
-            name: 'Lemmy Blahaj',
+            name: 'Lemmy',
             url: 'https://lemmy.blahaj.zone',
           },
           {
-            name: 'Mastodon Blahaj',
+            name: 'Mastodon',
             url: 'https://blahaj.zone',
           },
         ],
