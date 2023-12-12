@@ -203,7 +203,7 @@ export const config: Config = {
           },
           {
             name: 'Nixlang Wiki',
-            url: 'https://www.nixlang.wiki',
+            url: 'https://nixlang.wiki',
           },
           {
             name: 'MyNixOS',
